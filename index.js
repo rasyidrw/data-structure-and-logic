@@ -1,6 +1,6 @@
-//Struktur Data & Logika
+//Data Structure & Logic
 
-//NOMOR 1//
+//No #1//
 var number = [6, 8, 1, 4, 7, 2];
 var total = 0;
 for (i = 0; i < number.length; i++){
@@ -8,9 +8,10 @@ for (i = 0; i < number.length; i++){
 }
 console.log("Jumlah angka yang berada didalam array adalah " + total);
 
+//============================================================================================================================================================================//
 
-//NOMOR 2//
-//cara 1
+//No #2//
+//first way
 let x = [6, 8, 1, 4, 7, 2];
 function sort(fn, arr){
     for(var i = 0; i<arr.length-1; i++)
@@ -32,15 +33,16 @@ var xAsc = sort(function(a,b){
     return a-b}, x);
 console.log(xAsc);
 
-//cara2//
+//second way//
 function sortAsc(data){
     data.sort(function(a,b){return a-b})
     console.log(data)
 }
 sortAsc([6, 8, 1, 4, 7, 2]);
 
+//============================================================================================================================================================================//
 
-//NOMOR 3//
+//No #3//
 var array = [6, 8, 1, 4, 7, 2];
 var max = array[0];
 
@@ -52,7 +54,9 @@ for (var i = 1; i<array.length; i++){
 }
 console.log('Angka terbesar dari array tersebut adalah ' + max);
 
-//NOMOR 4//
+//============================================================================================================================================================================//
+
+//No #4//
 function findMax3(data){
     data.sort(function(a,b){return a-b})
     console.log(data)
